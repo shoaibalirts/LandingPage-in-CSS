@@ -198,5 +198,8 @@
         margin-bottom: 0.5rem;
       }
     }
+    &:has(.feature) {
+      border: 1px solid var(--primary-color);
+    }
   }
 }
