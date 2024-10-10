@@ -74,7 +74,10 @@
         font-weight: bold;
       }
       .menu-toggle {
-        @media (width>768) {
+        svg {
+          fill: var(--light-text);
+        }
+        @media screen and (min-width: 768px) {
           display: none;
         }
       }
